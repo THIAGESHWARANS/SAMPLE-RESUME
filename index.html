@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIAGESHWARAN-RESUME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .resume {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .left {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .right {
+            padding: 20px;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            display: block;
+        }
+        .about-me {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .contact-details {
+            margin: 20px 0;
+        }
+        .language-box, .expertise-box {
+            font-weight: bold;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .name {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .tagline {
+            font-style: italic;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .form-container {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+        }
+        table {
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="left">
+            <img class="profile-img" src="your-photo.jpg" alt="Your Photo">
+            <p class="about-me">About Me</p>
+            <p>BTech (IT)Student | Tech Enthusiast💡 | Web Developer | Coding Wizard | 3d Animation Artist | Game developer🎮</p>
+            <div class="contact-details">
+                <p>Address:44,abc street,Coimbatore</p>
+                <p>Email: sthiageshwaran@gmail.com</p>
+                <p>Phone: 9080513837</p>
+            </div>
+            <div class="language-box">
+                <p>Language</p>
+            </div>
+            <ul>
+                <li>Tamil</li>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>German</li>
+            </ul>
+            <div class="expertise-box">
+                <p>Expertise</p>
+            </div>
+            <ul>
+                <li>Cybersecurity</li>
+                <li>Game Development</li>
+                <li>3d Animation</li>
+                <li>Problem solving</li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="right-content">
+                <p class="name">THIAGESHWARAN S</p>
+                <p class="tagline">WEB DEVELOPER</p>
+            </div>
+            <div class="section">
+                <h2>Education</h2>
+                <table>
+                    <tr>
+                        <th>SNO.</th>
+                        <th>COURSE</th>
+                        <th>INSTITUTION</th>
+                        <th>BOARD OR UNIVERSITY</th>
+                        <th>YEAR OF PASSING</th>
+                        <th>PERCENTAGE</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>BTech IT</td>
+                        <td>CIT College</td>
+                        <td>Anna University</td>
+                        <td>2026</td>
+                        <td>98%</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>HSC</td>
+                        <td>SMBM School</td>
+                        <td>State Board</td>
+                        <td>2023</td>
+                        <td>98%</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SSLC</td>
+                        <td>SMBM School</td>
+                        <td>State Board</td>
+                        <td>2021</td>
+                        <td>98%</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web development</li>
+                    <li>Problem solving</li>
+                    <li>3d Animation</li>
+                    <li>Game development</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Career Objectives</h2>
+                <p>Dedicated and Highly motivated professional seeking a challenging position in Cybersecurity to leverage my skills i threat analysis and Network protection and contribute to the Success of the Company.</p>
+            </div>
+            <div class="section">
+                <h2>Projects</h2>
+                <table>
+                    <tr>
+                        <th>SNO.</th>
+                        <th>PROJECT TITLE</th>
+                        <th>TECHNOLOGY USED</th>
+                        <th>PROJECT DURATION</th>
+                        <th>DESCRIPTION</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Blockchain based voting System</td>
+                        <td>Blockchain</td>
+                        <td>1 month</td>
+                        <td>Web application that allows users to cast their vote and count it using Blockchain.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>TRI-C</td>
+                        <td>HTML,CSS,Javascript,Flask,MySQL</td>
+                        <td>3 weeks</td>
+                        <td>A Gamified social-media Platform, where users can share and exchange their ideas related to climate action.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form-container">
+                <h2>Contact Me</h2>
+                <form action="submit.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label><br><br>
+                    <input type="radio" id="Other" name="gender" value="Other" required>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Connect with me on LinkedIn</label><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
